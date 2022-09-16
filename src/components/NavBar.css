@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#34495E;
+    padding: 10px;
+}
+nav  div h5{
+   
+    background-color:#34495E;
+    margin-bottom: -1px;
+    padding-bottom: 5px;
+    
+    
+}
+
+span{
+   
+    background-color:#34495E ;
+    padding: 8px;
+    padding-right: 10px;
+    border-radius: 11px;
+}
+span:hover{
+    background-color: #6E48AA;
+}

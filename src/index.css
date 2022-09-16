@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    background-color: #222D3F
+}
+button{
+    background-color: #6E48AA !important;
+    color: whitesmoke !important;
+    border-radius: 10px !important;
+}
