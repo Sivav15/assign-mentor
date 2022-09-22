@@ -175,12 +175,16 @@ const getStudentname = (studentid)=>{
                 <select
                   id="inputState"
                   className="form-select"
-                  onChange={(e) => {
+                  onClick={(e) => {
+                   try {
                     if (mentorId === 0) {
                       alert("First select mentor");
                     } else {
                       getStudentname(e.target.value);
                     }
+                   } catch (error) {
+                    
+                   }
                   }}
                 >
                   <option selected>Choose...</option>
